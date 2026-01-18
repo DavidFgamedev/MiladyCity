@@ -1,0 +1,20 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Platform-specific project files
+*.xcworkspace
+*.xcodeproj
+*.sln
+*.suo
+*.vcxproj*
+.vs/
+
+# Rider/IDE
+.idea/
+
+# Mac
+.DS_Store
