@@ -15,10 +15,8 @@ class AMiladyCityGameMode : public AGameModeBase
 	GENERATED_BODY()
 
 public:
-	
-	/** Constructor */
 	AMiladyCityGameMode();
+
+protected:
+	virtual void BeginPlay() override;
 };
-
-
-
