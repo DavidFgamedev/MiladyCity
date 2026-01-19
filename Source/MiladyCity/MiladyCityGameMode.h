@@ -6,9 +6,6 @@
 #include "GameFramework/GameModeBase.h"
 #include "MiladyCityGameMode.generated.h"
 
-/**
- *  Simple GameMode for a third person game
- */
 UCLASS(abstract)
 class AMiladyCityGameMode : public AGameModeBase
 {
@@ -19,4 +16,7 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+	UFUNCTION()
+	void OnAuthComplete(bool bSuccess, const FString& WalletAddress);
 };

@@ -19,9 +19,11 @@ public class MiladyCity : ModuleRules
 			"GameplayStateTreeModule",
 			"UMG",
 			"Slate",
+			"SlateCore",
 			"HTTP",
 			"Json",
-			"JsonUtilities"
+			"JsonUtilities",
+			"WebBrowser"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
